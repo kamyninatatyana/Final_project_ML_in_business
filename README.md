@@ -24,9 +24,9 @@ API: flask
 Модель: logreg
 
 Клонируем репозиторий и создаем образ
-git clone https://github.com/kamyninatatyana/Final_project_ML_in_business.git
-cd Final_project_ML_in_business
-docker build -t kamyninatatyana/Final_project_ML_in_business .
+1. git clone https://github.com/kamyninatatyana/Final_project_ML_in_business.git
+2. cd Final_project_ML_in_business
+3. docker build -t kamyninatatyana/Final_project_ML_in_business .
 Запускаем контейнер
 Здесь Вам нужно создать каталог локально и сохранить туда предобученную модель (<your_local_path_to_pretrained_models> нужно заменить на полный путь к этому каталогу)
 
