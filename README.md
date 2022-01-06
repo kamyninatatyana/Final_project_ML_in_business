@@ -27,8 +27,10 @@ API: flask
 1. git clone https://github.com/kamyninatatyana/Final_project_ML_in_business.git
 2. cd Final_project_ML_in_business
 3. docker build -t kamyninatatyana/Final_project_ML_in_business .
+
 Запускаем контейнер
 Здесь Вам нужно создать каталог локально и сохранить туда предобученную модель (<your_local_path_to_pretrained_models> нужно заменить на полный путь к этому каталогу)
 
 $ docker run -d -p 8180:8180 -p 8181:8181 -v <your_local_path_to_pretrained_models>:/app/app/models fimochka/gb_docker_flask_example
+
 Переходим на localhost:8181
